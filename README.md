@@ -1,0 +1,1 @@
+Bash script to facilitate the creation of a node js project.
