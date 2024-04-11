@@ -26,13 +26,21 @@ npm install express
 npm install typescript @types/express ts-node-dev --save-dev
 
 mkdir src
-mkdir www
 
 projectPath=$(pwd)
 cd  $projectPath/src
 
 touch index.ts
+
+mkdir server
+
+projectPath=$(pwd)
+
+cd  $projectPath/server
+
 touch server.ts
+
+cd ..
 
 cd ..
 
